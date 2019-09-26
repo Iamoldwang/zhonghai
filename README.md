@@ -17,20 +17,21 @@
 单核1G
 
 # 架构
-- 前台:node+js
-- 后台:spring boot mvc mybatis 
-- API:swagger
-- 数据库:mysql
-- 缓存:redis
+- 前台：node+js
+- 后台：spring boot mvc mybatis 
+- 后台管理：vue element
+- API：swagger
+- 数据库：mysql
+- 缓存：redis
 
 # 项目成员
-- java:若干
-- javascript:若干
+- java：若干
+- javascript：若干
 - 需求分析：1-2名
 - 数据模型设计：1-2名
 - 原型设计：1-2名
 - ui设计：1-2名
-- css:1-2名
+- css：1-2名
 - 测试：若干
 - 运维：若干
 
