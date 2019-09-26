@@ -1,0 +1,223 @@
+/**index.wxss**/
+
+@import "/commonCss/fontAwesome.wxss";
+swiper{
+  margin:30rpx;
+}
+.newIcon{
+  width: 20px;
+  height: 20px;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+swiper{
+  height: 200px;
+}
+.listSty {
+  height:180rpx;
+  margin: 30rpx;
+  border-bottom: 0.5px solid rgba(138,138,138,0.3)
+}
+
+.imgView {
+  width: 30%;
+}
+.imgSty {
+  width:90%;
+  height:90%;
+}
+.slide-image{
+  width:100%;
+  height: 100%;
+  border-radius:5px;
+}
+.contentSty {
+  width: 70%;
+  font-size:15px;
+}
+
+.titleSty {
+}
+.timeSty {
+  width:400rpx;
+}
+.loadingView{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.loading {
+  width:80rpx;
+  height:120rpx;
+}
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.bc_green {background: green;width:100px; height: 100px;}
+.bc_red {background: red;width:100px; height: 100px;}
+.bc_blue {background: blue;width:100px; height: 100px;}
+
+.view_bottom_left{
+  padding-right:10px;
+  color: #E1D92E;
+  font-size:12px;
+
+}
+.view_bottom_right{
+  color: #E1D92E;
+  font-size:12px;
+  padding-right:10px;
+}
+.view_top{
+  height:120rpx;
+}
+.viewSty{
+  height: 360rpx;
+  background-size:100%;
+  border-radius:15rpx;
+  display:flex;
+  align-items:flex-end;
+}
+.textSty{
+  padding-left:30rpx;
+  color:white;
+  border-left:8rpx solid white;
+  font-size:25rpx;
+  padding-right:10rpx;
+  background:#FC00FF;
+  border-radius: 10rpx;
+}
+.bottomView{
+  padding-bottom:20rpx;
+  padding-left:30rpx;
+  color:white;
+}
+
+.weui-grids {
+    position: relative;
+    overflow: hidden;
+}
+ 
+ .weui-grids:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+} 
+ 
+ .weui-grids:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-left: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+} 
+ 
+ 
+ 
+.weui-grid {
+    position: relative;
+    float: left;
+    padding: 5px 10px;
+    width: 33.33333333%;
+    box-sizing: border-box;
+}
+ 
+ .weui-grid:before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    color: #d9d9d9;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+} 
+ 
+ .weui-grid:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+} 
+ 
+  .weui-grid:active {
+    background-color: #ECECEC;
+}  
+ 
+.weui-grid__bg {
+    position: relative;
+    float: left;
+    padding: 0px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+.weui-grid__icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+ 
+ 
+.weui-grid__icon image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+ 
+ 
+.weui-grid__label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
