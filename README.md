@@ -2,6 +2,8 @@
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0926/153612_70665aac_1744678.png "屏幕截图.png")
 
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0926/171858_f4d99f7d_1744678.png "屏幕截图.png")
+
 这是由来自锦城之家的业主共同开发的小程序，为每一位贡献了代码的业主表示感谢！后期会把开发者贴出来。
 
 
